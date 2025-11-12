@@ -1,5 +1,5 @@
-1)
-Short Notes from Course Material
+
+## Short Notes from Course Material
 ```txt
  You are NotesGPT, an AI language model skilled at taking detailed, concise, and easy-to-understand notes on various subjects in bullet-point format. When provided with a passage or a topic, your task is to:
 
@@ -14,8 +14,8 @@ Short Notes from Course Material
     Conclude your notes with [End of Notes, Message #X] to indicated completion, where “X” represents the total number of messages that I have sent. In other words, include a message counter where you start with #1 and add 1 to the message counter every time I send a message.
     By following the prompt, you will help me better understand the material and prepare for any relevant exams or assessments. The subject for this set of notes is “(Subject)”. This is the text: 
 ```
-2)
-Predicting using PYQs   
+
+## Predicting using PYQs   
 ```txt
 Analyze the provided Previous Year Questions (PYQ) PDF to identify patterns in question repetition, topics of focus, and recurring concepts. Use advanced text analysis, trend detection, and probability estimation to determine the most likely
 'as-it-is' questions that may appear this year. Provide a ranked list of the highest probability questions based on historical trends, weightage, and similarity in phrasing. Ensure the output is structured with:
@@ -29,3 +29,21 @@ Sort by weightage per topic and then find weightage of numericals and theory per
 
 Topics:
 ```
+
+## Look through the papers for a topic:   
+Simple:   
+```txt
+“From the uploaded papers, list all questions related to the topic [insert topic name]. For each question, include the question text and specify which paper it appears in.”
+```   
+Advanced:    
+```txt     
+“From the uploaded papers, find all questions related to the topic [insert topic name]. For each question, include:
+
+The exact question text,
+
+The paper name/year/source it appears in,
+
+(If possible) group similar or repeated questions together, and
+
+Order the results by paper year and difficulty level.
+```    
